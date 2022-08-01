@@ -9,8 +9,8 @@ const myAxios = axios.create({
     //   : "http://localhost:7345/api",
 
     process.env.NODE_ENV === "production"
-      ? "https://musicone.top:7345/api"
-      : "https://musicone.top:7345/api",
+      ? "https://www.musicone.top/api"
+      : "https://www.musicone.top/api"
 });
 
 myAxios.defaults.withCredentials = true;
