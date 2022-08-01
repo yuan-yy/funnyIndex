@@ -22,6 +22,7 @@ import shortcutCommand from "./commands/terminal/shortcut/shortcutCommand";
 import ikunCommand from "./commands/relax/ikun/ikunCommand";
 import zhenGuCommand from "./commands/zhenGu/ddosCommand"
 import leiZCommand from "./commands/zhenGu/lei"
+import momoyuCommand from "./commands/momoyu/momoyuCommand";
 
 /**
  * 命令列表（数组元素顺序会影响 help 命令的展示顺序）
@@ -44,6 +45,7 @@ const commandList: CommandType[] = [
   musicCommand,
   ddosCommand,
   moyuCommand,
+  momoyuCommand,
   ikunCommand,
   backgroundCommand,
   resetCommand,
