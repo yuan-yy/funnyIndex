@@ -14,6 +14,8 @@
       </p>
       <p>输入moyu回车 开始摸鱼
       </p>
+      <p>输入momoyu回车 展示摸鱼游戏列表
+      </p>
       <p style="text-align:center;color:red;margin-top:30px">请各位注册登录再使用,以获得良好的体验哈</p>
     </a-modal>
   </div>
