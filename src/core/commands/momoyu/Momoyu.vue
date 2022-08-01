@@ -1,5 +1,5 @@
 <template>
-  <div style="background:white;padding:20px 0;display: flex;">
+  <div style="background:white;padding:20px 0;display: flex; flex-wrap: wrap;">
     <div @click="chooseGame(index)" style="color:black;cursor: pointer;padding-left: 20px;"
       v-for="(item, index) in gameListObj">
       {{ item.n }}
