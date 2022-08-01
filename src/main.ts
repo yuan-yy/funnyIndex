@@ -4,7 +4,7 @@ import * as VueRouter from "vue-router";
 import routes from "./configs/routes";
 import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
-
+import 'ant-design-vue/dist/antd.css';
 const app = createApp(App);
 
 // 路由
