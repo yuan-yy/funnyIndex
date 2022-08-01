@@ -4,9 +4,13 @@ import axios from "axios";
 const myAxios = axios.create({
   baseURL:
     // @ts-ignore
+    // process.env.NODE_ENV === "production"
+    //   ? "https://yuindex-server-974538-1256524210.ap-shanghai.run.tcloudbase.com/api"
+    //   : "http://localhost:7345/api",
+
     process.env.NODE_ENV === "production"
-      ? "https://yuindex-server-974538-1256524210.ap-shanghai.run.tcloudbase.com/api"
-      : "http://localhost:7345/api",
+      ? "http://150.158.90.20:7345/api"
+      : "http://150.158.90.20:7345/api",
 });
 
 myAxios.defaults.withCredentials = true;
