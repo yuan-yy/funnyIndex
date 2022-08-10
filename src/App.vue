@@ -32,7 +32,7 @@ const showModal = () => {
   visible.value = true;
 };
 
-showModal()
+// showModal()
 
 
 const handleOk = (e: MouseEvent) => {
